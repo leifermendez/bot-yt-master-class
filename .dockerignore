@@ -1,0 +1,29 @@
+# Archivos y directorios generados por el sistema
+node_modules/
+npm-debug.log
+yarn-error.log
+.yarn
+.yarnrc.yml
+.yarn/*
+!.yarn/{patches,releases,plugins,sdks,versions}
+.pnp.*
+
+# Archivos y directorios específicos de IDE
+.vscode/
+.idea/
+
+# Archivos y directorios específicos de control de versiones
+.git/
+.svn/
+
+# Otros archivos y directorios específicos de tu proyecto
+secrets/
+logs/
+*.log
+*.png
+.env
+*_sessions
+dist/
+tmp/
+!tmp/.gitkeep
+*.pdf

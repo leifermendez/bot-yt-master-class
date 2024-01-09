@@ -23,6 +23,9 @@ dependencies:
   '@whiskeysockets/baileys':
     specifier: ^6.5.0
     version: 6.5.0
+  bot-ts-demo:
+    specifier: 0.1.0-alpha.0
+    version: 0.1.0-alpha.0
   bot-ws-plugin-openai:
     specifier: ^1.0.6
     version: 1.0.6
@@ -2041,6 +2044,10 @@ packages:
       unpipe: 1.0.0
     transitivePeerDependencies:
       - supports-color
+    dev: false
+
+  /bot-ts-demo@0.1.0-alpha.0:
+    resolution: {integrity: sha512-lyQsHdwRFFJkrjvM8R4oceNh48+F42b/sEH4W7zFxugMAHZan7iEiYNeqS7mXjBiDNaUuDEbC30xkdOYbuObqg==}
     dev: false
 
   /bot-ws-plugin-openai@1.0.6:

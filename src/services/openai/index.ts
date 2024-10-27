@@ -50,7 +50,7 @@ const runDetermine = async (history: ChatCompletionMessageParam[]): Promise<stri
         frequency_penalty: 0,
         presence_penalty: 0,
     });
-    return response.choices[0].message.content
+    return response.choices.length > 0 && response.choices[0].message.role === 'user' ? response.choices[0].message.content : 'unknown'
 }
 
 export { run, runDetermine }
